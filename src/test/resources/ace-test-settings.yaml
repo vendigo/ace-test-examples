@@ -1,0 +1,12 @@
+launchers:
+  - appName: firstApp
+    className: com.github.vendigo.examples.acetest.first.FirstLauncher
+  - appName: secondApp
+    className: com.github.vendigo.examples.acetest.second.SecondLauncher
+datasources:
+  - dbName: firstDb
+    url: jdbc:h2:mem:firstdb
+    schemaFile: schema1.sql
+  - dbName: secondDb
+    url: jdbc:h2:mem:seconddb
+    schemaFile: schema2.sql
