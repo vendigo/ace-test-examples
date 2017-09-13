@@ -20,7 +20,7 @@
         <univocity-parsers.version>2.4.1</univocity-parsers.version>
         <spring-data-jpa.version>1.11.4.RELEASE</spring-data-jpa.version>
         <hibernate-entitymanager.version>5.2.10.Final</hibernate-entitymanager.version>
-        <ace-test.version>1.1.0</ace-test.version>
+        <ace-test.version>1.1.1-SNAPSHOT</ace-test.version>
         <commons-dbcp2.version>2.1.1</commons-dbcp2.version>
         <log4j.version>2.6.2</log4j.version>
     </properties>

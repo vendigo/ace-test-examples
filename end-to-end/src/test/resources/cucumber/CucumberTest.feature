@@ -15,6 +15,10 @@ Feature: Two launchers
       | Petya | 12  | Ukraine |
       | Eric  | 10  | USA     |
 
+  Scenario: Run first app with exception
+    Given  firstDb table Person is empty
+    When Application firstApp runs with params: '-fail', it fails with exception: App failed
+
   Scenario: Run second app
     Given  secondDb table Country is empty
     When Application secondApp runs
